@@ -1,0 +1,578 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i");
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&subset=latin-ext');
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Poppins', 'Montserrat', 'Lato', 'Raleway', sans-serif !important;
+  font-size: 1rem;
+  color: #444444;
+}
+
+a, a:visited {
+  color: #333;
+}
+a:hover, a:focus, a:active {
+  color: #6365d2;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Poppins', 'Montserrat', 'Lato', 'Raleway', sans-serif !important;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+p {
+  color: #7c7c7c;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #ccc !important;
+  outline: none !important;
+}
+
+.btn {
+  font-size: .75rem;
+  padding: .6rem;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-subtle {
+  border: 1px solid #e8e8e8;
+  background: #ffffff;
+  color: #999;
+  -webkit-appearance: none;
+  cursor: pointer;
+  font-size: 14px !important;
+  padding: 2px 10px;
+  float: right;
+}
+
+.full-wd {
+  width: 100% !important;
+}
+
+.btn-subtle i {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.btn-subtle:hover, .btn-subtle:focus, .btn-subtle:active {
+  color: #333;
+  background-color: #fafafa;
+  outline: none;
+}
+
+.dropdown a {
+  color: #444444;
+}
+.dropdown a:hover, .dropdown a:active, .dropdown a:focus {
+  background-color: #2296f3;
+  color: #ffffff;
+}
+.dropdown-menu {
+  background: #ffffff;
+  border: none;
+  width: 170px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.dropdown-menu .divider {
+  margin: .5rem 0;
+}
+.dropdown-menu li a {
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a i{
+  margin-right: 10px;
+}
+
+.dropdown-menu li a {
+  color: #666;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+}
+.dropdown-menu li a:hover {
+  background: #04a0b2;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.all-page-header {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  line-height: 30px;
+  padding-top: 0px;
+}
+
+.dashboard-start-btn, .dashboard-start-btn:focus {
+  float: right;
+  font-size: 15px;
+  background: #00c8b0;
+  padding: 9px 22px;
+  color: #fff !important;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 22px;
+  border-color: black;
+}
+
+.dashboard-start-btn:hover {
+  text-decoration: none;
+  padding: 9px 22px;
+  outline: none;
+}
+
+.dashboard-preview-btn, .dashboard-preview-btn:focus {
+  float: left;
+  font-size: 15px;
+  color: #6c757c !important;
+  font-weight: 500;
+}
+
+.dashboard-preview-btn:hover {
+  text-decoration: none;
+  outline: none;
+  color: #04a0b2 !important;
+}
+
+.dashboard-preview-title{
+  float: right;
+  font-size: 20px;
+  color: #00c8b0 !important;
+  font-weight: 300;
+}
+
+.copy-btn, .copy-btn:focus {
+  font-size: 15px;
+  background: #00c8b0;
+  padding: 9px 22px;
+  color: #000 !important;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 22px;
+  border-color: black;
+}
+
+.copy-btn:hover {
+  text-decoration: none;
+  color: #fff !important;
+  border-color: white;
+}
+
+.spacer {
+  margin-bottom: 11px !important;
+  padding-top: 3px !important;
+  line-height: 40px !important;
+}
+
+.live-container {
+  margin-bottom: 70px;
+}
+
+.row-main-wrapper {
+  background: #ffffff;
+  min-height: 250px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  -webkit-box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+}
+
+.one-question-wrap {
+  background: #ffffff;
+  min-height: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.one-question-view-wrap {
+  background: #ffffff;
+  min-height: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 6px;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  -webkit-box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+}
+
+.question-separator {
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  -webkit-box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+}
+
+.answer-input-dropdown {
+  padding: 8px 10px !important;
+}
+
+.q-fm-wrap h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.q-fm-wrap h3 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 600;
+}
+
+.q-fm-wrap h3 span {
+  margin-right: 10px;
+}
+
+.answer-input-display {
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  -webkit-box-shadow: 0 0 2px 0 rgba(110, 126, 136, 0.12), 0 2px 4px 0 rgba(130, 132, 134, 0.12) !important;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  min-height: 100px; 
+}
+
+.ans-input-col {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  margin-top: 5px;
+}
+
+.ans-input-inner-wrap i {
+  font-size: 18px;
+  color: #e4e4e4;
+  margin: 7px;
+}
+
+.ans-input-inner-wrap i:hover {
+  color: #04a0b2;
+}
+
+.view-only-answers-display {
+  padding-bottom: 10px;
+  min-height: 10px; 
+}
+
+.question-action-btn, .question-action-btn:focus {
+  background: #04a0b2;
+  padding: 6px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 7px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #04a0b2;
+  outline: none;
+  cursor: pointer;
+  display: inline-block !important;
+}
+
+.question-action-btn:hover {
+  background: #0d93a2;
+  padding: 6px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 7px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #0d93a2;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.delete-question-action-btn, .delete-question-action-btn:focus {
+  background: #ffffff;
+  padding: 6px 20px;
+  border-radius: 4px;
+  color: #04a0b2;
+  font-size: 15px;
+  margin-top: 7px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #04a0b2;
+  outline: none;
+  cursor: pointer;
+  display: inline-block !important;
+}
+
+.delete-question-action-btn:hover {
+  background: #04a0b2;
+  padding: 6px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 7px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #04a0b2;
+  outline: none;
+  cursor: pointer;
+}
+
+a.pull-right i {
+  color: #2296f3;
+}
+
+label {
+  font-weight: 600;
+  font-size: 13px !important;
+}
+
+.radio-wrap {
+  min-height: 30px;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.radio-wrap label {
+  margin-bottom: 0px;
+  margin-left: 3px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.rdcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 500 !important;
+}
+
+/* Hide the browser's default radio button */
+.rdcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.rdcontainer:hover input ~ .checkmark {
+  background-color: #eee;
+}
+
+/* When the radio button is checked, add a blue background */
+.rdcontainer input:checked ~ .checkmark {
+  background-color: #04a0b2;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.rdcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.rdcontainer .checkmark:after {
+  top: 7px;
+  left: 7px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+  font-size: 14px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+  font-size: 14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+  font-size: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+  font-size: 14px;
+}
+
+tr > th.next, tr > th.prev {
+  font-size: 35px;
+  color: #2296f3;
+}
+
+.table td, .table th {
+  font-size: 14px;
+  border-bottom: none;
+  border-top: none;
+}
+
+table, td, tr, th, thead {
+   border-color: none !important;
+}
+
+.table tr:hover {
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.13);
+}
+
+.table thead tr:hover {
+  background: #ffffff;
+  cursor: default;
+  box-shadow: none;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.form-control {
+  border: 1px solid #e4e4e4;
+  background-color: #ffffff;
+  box-shadow: none;
+  padding: 7px 10px;
+  outline: none !important;
+}
+
+.thick-border {
+  border: 1px solid #e8e8e8 !important;
+}
+
+.input-group-btn .btn {
+  height: 40px;
+}
+.form-control:disabled, .form-control[readonly] {
+  background-color: #f7f7f7;
+  color: #7c7c7c;
+}
+.form-control:focus {
+  outline: 0;
+  background-color: #ffffff;
+  color: #444444;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.project-question-number {
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* move to modal package; and test here */
+/* or leave here and call it bootstrap 4 adjustment */
+.modal-header {
+  display: table !important;
+  padding: 15px !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+.modal.show .modal-form-wrap {
+  margin: 0 auto;
+}
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  font-size: 20px !important;
+}
+.modal-header .close {
+  margin-top: -2px;
+}
+.modal-header button.close {
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.modal-header .close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+  margin: 4px !important;
+}
+
+/* flip layout */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+  /* margin: 0 auto; */
+	position: absolute !important;
+	top: 0;
+	/* left: 0; */
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}

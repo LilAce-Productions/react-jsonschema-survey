@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f1f1;
+  color: #5E5E5E; 
+}
+
+h1 { 
+    font-size: 1.5em;
+    font-size: 4vw;
+    line-height: 1.2; 
+    margin: 0;
+}
+
+h1 { 
+  color: #000000;
+  font-weight: 900;
+  margin: 0.5em 0 2.5em;
+}
+h1 span {
+  color: #00c8b0;
+}
+
+.wrap {
+  padding: 1em;
+  text-align: center;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-top {
+  padding: 20px;
+  color: #fff;
+  line-height: 35px;
+  text-align: left;
+}
+
+.cl-logo-wrap {
+  display: inline-block;
+  padding: 1em;
+  padding-right: 1.6em;
+}
+
+.github-logo-wrap {
+  float: right;
+}
+

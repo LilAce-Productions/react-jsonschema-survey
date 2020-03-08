@@ -1,0 +1,10 @@
+.dd-question-wrapper label { 
+  display: block;
+  margin-bottom: 20px;
+  font-size: 17px !important;
+  line-height: 33px;
+  font-weight: 600;
+}
+.question-text-edit {
+  margin-bottom: 35px;
+}

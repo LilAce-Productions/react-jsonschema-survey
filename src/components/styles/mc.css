@@ -1,0 +1,43 @@
+
+.mc-question-wrapper .control-label { 
+ display: block;
+ margin-bottom: 20px;
+ font-size: 17px !important;
+ line-height: 33px;
+ font-weight: 600;
+}
+.mc-question-wrapper .field-radio-group label { 
+ display: block;
+ margin-bottom: 20px;
+ font-size: 13px !important;
+ line-height: 33px;
+}
+.mc-question-wrapper .radio {
+ margin: 0.5rem;
+}
+.mc-question-wrapper .radio input[type="radio"] {
+  position: absolute !important;
+  opacity: 0 !important;
+}
+.mc-question-wrapper .radio input[type="radio"] + span:before {
+  content: '';
+  background: #eee;
+  border-radius: 100%;
+  border: 1px solid #eee;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  top: -0.2em;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+}
+.mc-question-wrapper .radio input[type="radio"]:empty + span:before {
+  margin-right: 1em !important; 
+  background-color: #eee;
+}
+.mc-question-wrapper .radio input[type="radio"]:checked + span:before {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 6.8px #04a0b2;
+}
