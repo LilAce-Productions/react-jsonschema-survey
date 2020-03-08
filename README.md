@@ -40,7 +40,7 @@ Property | Type | Default | Required | Description
 -------- | ---- | ------- | -------- |-----------
 data | `Array` | n/a | yes | Array of question schemas
 mode | `String` | n/a | yes | Builder or Live
-onFinishSurvey | `Function` | n/a | yes | Return live survet answers
+onFinishSurvey | `Function` | n/a | yes | Return live survey answers
 
 Uses npm packages [react-quick-alert](https://github.com/CalabashLabsLLC/react-quick-alert) and [react-simple-promise-modal](https://github.com/CalabashLabsLLC/react-simple-promise-modal)
 
